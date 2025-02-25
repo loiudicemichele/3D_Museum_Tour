@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="css/styleHome.css">
+        <link href='https://fonts.googleapis.com/css?family=Hind Siliguri' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/0d19d0ba32.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <section class="header">
+         <nav>
+                <a href="index.html"><img src="img/logo.png" draggable="false"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="html/login.html">ACCEDI</a></li>
+                        <li><a href="html/registrazione.html">REGISTRATI</a></li>
+                        <li><a href="php/opere.php">OPERE</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <!-- Script per la barra laterale -->
+            <script type="text/javascript" src="js/script-nav-bar.js"></script>
+        </section>
+
+        <div class="text-box">
+            <h1>VIRTUAL TOUR</h1>
+            <a href="php/tour.php" class="hero-btn">Vai al tour</a>
+        </div>
+
+        <footer>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>About us</h3>
+                        <p>C.Mec. MTIS01200R</p>
+                        <p>Cod. fisc. 80002480772</p>
+                        <p>Via Mattei snc - 75100 Matera</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Contatti</h3>
+                        <ul>
+                            <li>Tel. +39 0835.264114</li>
+                            <li>Fax +39 0835.389209</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Follow us</h3>
+                        <ul class="social-icons">
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-tiktok"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
