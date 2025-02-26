@@ -24,5 +24,8 @@ The project consists of a **landing page** that provides access to all available
 - To access the services, users must be registered.  
 - A registration form is provided to allow new users to sign up.  
 
+## Language
+Italian
+
 ## Notes  
 This project was designed for educational purposes only. We do not guarantee that all functionalities work flawlessly, and some errors may be present. The code could be improved in terms of security and efficiency. Additionally, some comments may contain grammatical errors.  
